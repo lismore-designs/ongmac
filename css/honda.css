@@ -1,0 +1,204 @@
+/* Honda EPC Styles */
+body {
+    background: #fff url('http://www.ongmacmotorcycles.com.au/themes/theme176/img/bg_img_home.jpg') no-repeat top -27px center;
+}
+
+header #logo
+{
+    position: absolute;		left: -25px;		top: 13px;
+		height: 120px;		width: 500px;		background: url('http://www.ongmacmotorcycles.com.au/img/logo.jpg?1393910724') no-repeat scroll 0% 0%;}
+
+#FilterPanel {	float:right;
+    width: 350px;	background-color: #000;
+}
+
+.hide {
+	display:none;
+}
+
+#TypeSelection {
+	width: 300px;	height: 380px;	margin: 0px auto;
+}
+
+#TypeSelection select {
+    float: left;
+}
+#YearSelect, #ModelSelect, #AssemblySelect, #AccessorySelect, #AdrAssemblySelect {    width: 300px;    font-size: 20px;    padding: 5px;    height: 40px;	margin: 15px 0px;	color: #5F080E;}
+#YearSelect{	margin-top: 30px;}#AdrAssemblySelect{	margin-bottom: 30px;}
+fieldset#VinSearch {
+	display: none;
+}
+
+#YearsContainer 
+{
+	height: 400px;
+	width: 400px;	
+}
+
+#ModelsContainer 
+{
+	height: 400px;
+	width: 400px;
+}
+
+#AssemblyContainer
+{
+    clear: both;
+	position: relative;
+	height: 100%;
+	width: 960px;
+}
+
+#AssemblySelection
+{
+
+}
+
+#ImageContainer 
+{
+/*	float: left; */
+/*	height: 450px; */
+/*	width: 590px; */
+/*	overflow: hidden; */
+}
+
+
+#imageCanvas 
+{
+/*	float: left; */
+	position:relative; /*keep this intact*/
+	overflow:hidden; /*keep this intact*/	border: 1px solid #000;
+	/*border: dotted 2px black;*/
+}
+
+#ImageContainer img 
+{
+	cursor: move;
+}
+
+#PartsListContainer 
+{position: relative;margin: -5px 0px;padding: 0px 0px;width: 930px;height: 100%;overflow: auto;
+}
+
+#PartsList {
+    position: relative;
+    font-size: 10px;
+    color: #444;
+    width: 100%;
+}
+
+#PartsList tr {
+
+}
+
+#PartsList th {
+    background-color : #5F080E;
+    color : #FFF;
+	text-transform: uppercase;
+}
+
+
+#PartsList td {
+    /*background-image: -webkit-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    /*background-image: -moz-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    /*background-image: -o-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    background-color : #ccc;
+    color : #444;
+}
+
+#PartsList td.hilight {
+    background-color:  #7ce7fd;
+    color: #444;
+}
+
+#PartsList input[type="text"].qtyTextbox {
+    width : 40px;
+}
+
+#PartsList td.descCol {
+    width: 360px;
+}
+
+#PartsList td.numberCol {
+    width: 50px;
+}
+
+
+#CartContainer 
+{
+	/*visibility:hidden;*/
+	clear:both;
+	float: left;
+	margin-left: 20px;
+	width: 600px;
+	height: 400px;
+	overflow:visible;		
+	
+}
+
+div.partinfopanel 
+{
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #ffed8a;
+	padding: 2px 6px;
+}
+#top {	margin-top: 2px;}#Diagram {	position: relative;}#DiagramControls {	position: absolute;	width: 60px;	height: 402px;	top: 0px;	left: 0px;	background-color: #5F080E;}#zoomIn {	position:top;}#zoomOut {	position:bottom;}
+#imageWrap{ 
+	width:580px;
+	float:left;
+	height:380px;
+	margin:0px;
+	overflow: hidden;		
+	background-color: #5F080E;
+	background-image: url('../img/holder.jpg');
+}
+
+div.modelImageContainer {
+    position: relative;
+    width: 280px;
+    height: 170px;
+    display: inline;
+    overflow: hidden;
+}
+
+img.modelImage {
+    top: 0px;
+    left: 0px;
+	width: 580px;		height: 380px;
+}
+
+input[type="button"]#zoomIn {
+    background: url(/img/search-icon-with-arrows-up.png) no-repeat;
+    border: none;
+	width: 25px;	height: 32px;	background-position: right;	margin: 40px 0px 0px 23px;	text-indent:-999px;
+}
+
+input[type="button"]#zoomOut {
+    background: url(/img/search-icon-with-arrows-dow.png) no-repeat;
+    border: none;
+	width: 25px;	height: 32px;	background-position: right;	margin: 260px 0px 0px 23px;	text-indent:-999px;
+}
+
+/* —————————————————————————————— footer styles —————————————————————————————— */
+#footer {height:292px;clear:both;}
+#footer ul {
+	list-style: none;
+	margin: 0px;
+}
+
+/* ————— tmfooterlinks.tpl ————— */
+#tmfooterlinks {background:#fff;}
+#tmfooterlinks div.footerlinks_block {width:190px;float:left;padding:0 25px 25px 25px;}
+#tmfooterlinks h4 {padding:31px 0 0 0;font:normal 14px "Arial";color:#222;}
+
+#tmfooterlinks ul {padding:9px 0 0 0;}
+#tmfooterlinks ul li {padding:6px 0 8px 0;border-top:1px dashed #e5e5e5;}
+#tmfooterlinks ul li:first-child {border:none;}
+#tmfooterlinks ul li a {padding:0 0 0 26px;background:url('http://www.ongmacmotorcycles.com.au/themes/theme176//img/footerlink.png') 0 0 no-repeat;color:#88868f;text-decoration:none;}
+#tmfooterlinks ul li a:hover {background:url('http://www.ongmacmotorcycles.com.au/themes/theme176//img/footerlink_active.png') 0 0 no-repeat;color:#000;}
+
+#tmfooterlinks p {margin:12px 0 0 0;padding:17px 0 0 0;clear:both;border-top:1px solid #f2f2f2;color:#d8d7da;}
+#tmfooterlinks p a {color:#d8d7da;}
+#tmfooterlinks p a:hover {color:#000;}

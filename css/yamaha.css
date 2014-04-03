@@ -1,0 +1,229 @@
+/* Yamaha EPC Styles */
+body {
+    background: #000000 url('/img/gibbs-PR-Image-2012.jpg')
+        no-repeat fixed top center;
+
+}
+
+header
+{
+    position: relative;
+    margin-bottom: 0px;
+    color: #FF0000;
+    padding: 0;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+header #logo
+{
+    position: absolute;
+    left: 5px;
+    top: 16px;
+    height: 76px;
+    width: 200px;
+    background: #000 url('/img/yamaha_logo.jpg') no-repeat ;
+}
+
+header h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin-left: 260px;
+    color: #666;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+
+#FilterPanel {
+    background-color: #ccc;
+    width: 940px;
+}
+
+
+#TypeSelection {
+    padding: 20px;
+    margin: 20px auto;
+    width: 700px;
+    height: 160px;
+
+}
+
+#TypeSelection select {
+    float: left;
+    margin: 8px;
+}
+
+
+
+fieldset#VinSearch {
+    display: none;
+}
+
+#YearsContainer
+{
+    height: 400px;
+    width: 400px;
+}
+
+#ModelsContainer
+{
+    height: 400px;
+    width: 400px;
+}
+
+#AssemblyContainer
+{
+    clear: both;
+    position: relative;
+    height: 800px;
+    width: 960px;
+}
+
+#AssemblySelection
+{
+
+}
+
+#ImageContainer
+{
+    /*	float: left; */
+    /*	height: 450px; */
+    /*	width: 590px; */
+    /*	overflow: hidden; */
+}
+
+
+#imageCanvas
+{
+    /*	float: left; */
+    position:relative; /*keep this intact*/
+    overflow:hidden; /*keep this intact*/
+    /*border: dotted 2px black;*/
+}
+
+#ImageContainer img
+{
+    cursor: move;
+}
+
+#PartsListContainer
+{
+    position: relative;
+    /*visibility:hidden;*/
+    /*float: left;*/
+
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 940px;
+    height: 400px;
+    overflow: auto;
+}
+
+#PartsList {
+    position: relative;
+    font-size: 10px;
+    color: #444;
+    width: 100%;
+}
+
+#PartsList tr {
+
+}
+
+#PartsList th {
+    background-color : #555555;
+    color : #aaaaaa;
+}
+
+
+#PartsList td {
+    /*background-image: -webkit-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    /*background-image: -moz-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    /*background-image: -o-linear-gradient(270deg, #333 10%, #555 50%, #888 80%);*/
+    background-color : #ccc;
+    color : #444;
+}
+
+#PartsList td.hilight {
+    background-color:  #7ce7fd;
+    color: #444;
+}
+
+#PartsList input[type="text"].qtyTextbox {
+    width : 40px;
+}
+
+#PartsList td.descCol {
+    width: 360px;
+}
+
+#PartsList td.numberCol {
+    width: 50px;
+}
+
+
+#CartContainer
+{
+    /*visibility:hidden;*/
+    clear:both;
+    float: left;
+    margin-left: 20px;
+    width: 600px;
+    height: 400px;
+    overflow:visible;
+
+}
+
+div.partinfopanel
+{
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #ffed8a;
+    padding: 2px 6px;
+}
+
+#imageWrap{
+    width:920px;
+    /*float:left;*/
+    min-height:200px;
+    margin:220px 0 0 0;
+    padding: 10px;
+    overflow: visible;
+    background-color : #888;
+}
+
+div.modelImageContainer {
+    position: relative;
+    padding: 0 10px 0 10px;
+    width: 280px;
+    height: 170px;
+    display: inline;
+    overflow: hidden;
+}
+
+img.modelImage {
+    top: 0px;
+    left: 0px;
+    width: 260px;
+}
+
+input[type="button"]#zoomIn {
+    background: url(/img/search-icon-with-arrows-up.png) no-repeat;
+    border: none;
+    width: 60px;
+    height: 32px;
+}
+
+input[type="button"]#zoomOut {
+    background: url(/img/search-icon-with-arrows-dow.png) no-repeat;
+    border: none;
+    width: 60px;
+    height: 32px;
+}
+
+

@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+#StatsControls div {
+	width: 300px;
+	padding: 5px 20px;
+}
+
+#StatsControls div label{
+	width: 200px;
+}
